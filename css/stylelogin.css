@@ -1,0 +1,131 @@
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+form {
+  margin: auto;
+}
+
+label {
+  display: block;
+}
+
+input {
+  border-radius: 10px;
+  width: 100%;
+
+}
+
+button {
+  margin: 10px;
+  background: #FFF;
+  border: 1px solid #3463b7;
+  border-radius: 10px;
+}
+
+button:hover {
+  transition: 1.0s;
+  color: #FFF;
+  border: 1px solid #42be42;
+  background: #3bab3b;
+}
+
+.conteiner-principal {
+  position: relative;
+  margin: auto;
+  width: 90%;
+  max-width: 1500px;
+}
+
+.cabecalho {
+  text-align: center;
+
+}
+
+.centra-logo {
+  display: inline-block;
+}
+
+.menu {
+  position: absolute;
+  background: #ff0000;
+  width: 15%;
+  height: 102%;
+  display: inline-block;
+  left: 0px;
+  text-align: left;
+  padding: 40px;
+  box-shadow: 0px 5px 20px rgba(100, 100, 100, 0.5);
+}
+
+.menu-t {
+  padding: 20px;
+  border-bottom: 1px solid #820404;
+}
+
+.menu-t a:hover {
+  color: #000;
+}
+
+.btn-group {
+  display: none;
+}
+
+ul li a {
+  color: #FFF;
+}
+
+
+.conteiner-logi {
+  margin-top: 200px;
+}
+
+.login {
+  margin: auto;
+  padding: 20px;
+  height: 50%;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgba(100, 100, 100, 0.5);
+  transform: translateY(0);
+  transition: 1.0s;
+}
+
+.login:hover {
+  transform: translateY(-30px);
+  transition: 1.0s;
+}
+
+.error-text {
+  color: #ff0000;
+  font-size: 10px;
+}
+
+@media (max-width:1318px) {
+  .menu {
+    display: none;
+  }
+
+  .conteiner-carrinho {
+    display: none;
+  }
+
+  .btn-group {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    display: inline-block;
+  }
+
+  .btn-danger {
+    background: #FFF;
+    border: #FFF;
+  }
+
+}

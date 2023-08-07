@@ -1,0 +1,222 @@
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  transition: 1.0s;
+}
+
+h4, h5 {
+  display: inline-block;
+}
+
+.conteiner-principal {
+  position: relative;
+  margin: auto;
+  width: 80%;
+  max-width: 2000px;
+}
+
+.cabecalho {
+  text-align: center;
+
+}
+
+.centra-logo {
+  display: inline-block;
+}
+
+.menu {
+  position: absolute;
+  background: #ff0000;
+  width: 15%;
+  height: 102%;
+  display: inline-block;
+  left: 0px;
+  text-align: left;
+  padding: 40px;
+  box-shadow: 0px 5px 20px rgba(100, 100, 100, 0.5);
+}
+
+.menu-t {
+  padding: 20px;
+  border-bottom: 1px solid #820404;
+  transition: 1.0s;
+}
+
+.menu-t a:hover {
+  color: #000;
+  transition: 1.0s;
+}
+
+.btn-group {
+  display: none;
+
+}
+
+ul li a {
+  color: #FFF;
+}
+
+#catalogo {
+  width: 70%;
+  margin: auto;
+}
+
+.produtos {
+  border: 1px solid #e9e9e9;
+  border-radius: 10px;
+  height: 250px;
+  width: 240px;
+  display: inline-block;
+  padding: 30px;
+  margin: 10px 5px;
+  text-align: center;
+  box-shadow: 0px 5px 10px rgba(100, 100, 100, 0.5);
+  transform: translateY(0);
+  transition: 1.0s;
+}
+
+.produtos:hover {
+  transition: 0.5s;
+  border: 1px solid #ff0000;
+  transform: translateY(-10px);
+}
+
+.comprar {
+  background: #ff0000;
+  color: #FFF;
+  border-radius: 10px;
+  border: 1px solid #e9e9e9;
+  padding: 5px;
+  transition: 1.0s;
+}
+
+.comprar:hover {
+  transition: 0.5s;
+  background: #FFF;
+  color: #ff0000;
+  border: 1px solid #ff0000;
+}
+
+.pagina-menu {
+  margin: 20px 0px 5px 250px;
+}
+
+.pagina {
+  background: #ff0000;
+  border-radius: 5px;
+  border: 1px solid #e9e9e9;
+}
+
+.pagina a {
+  color: #FFF;
+}
+
+#t-o {
+  background: #FFF;
+  border: 1px solid #ff0000;
+  border-radius: 5px;
+}
+
+#t-o a {
+  color: #ff0000;
+}
+
+.btn-conte {
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  background: #ff0000;
+  border: 1px solid #ff0000;
+  transition: 1.0s;
+}
+
+.btn:hover {
+  background: #FFF;
+  border: 1px solid #ff0000;
+  color: #000;
+  transition: 1.0s;
+
+}
+
+.conteiner-carrinho {
+  text-align: center;
+}
+
+.rodape {
+  margin-top: 20px;
+}
+
+.carrinhoItem {
+  color: #000;
+}
+
+.produtos-carrinho {
+  border: 1px solid #e9e9e9;
+  border-radius: 10px;
+  height: 200px;
+  width: 100%;
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  box-shadow: 0px 5px 10px rgba(100, 100, 100, 0.5);
+  transform: translateY(0);
+  transition: 1.0s;
+}
+
+.produtos-carrinho:hover {
+  transition: 0.5s;
+  border: 1px solid #ff0000;
+  transform: translateY(-2px);
+}
+
+.images-carrinho {
+  display: inline-block;
+}
+
+.titulo-carrinho {
+  margin: 0px;
+}
+
+.preco-carrinho {
+  display: inline-block;
+  margin: 0px 15px;
+}
+
+.fa-trash {
+  cursor: pointer;
+}
+
+@media (max-width:1318px) {
+  .menu {
+    display: none;
+  }
+
+  .btn-conte {
+    position: absolute;
+    right: 0px;
+    ;
+  }
+
+  .btn-group {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    display: inline-block;
+  }
+
+  .btn-danger {
+    background: #FFF;
+    border: #FFF;
+  }
+
+  .pagina-menu {
+    margin: 20px 0px 5px 100px;
+  }
+
+}
